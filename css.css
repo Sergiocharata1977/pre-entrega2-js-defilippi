@@ -1,0 +1,85 @@
+/* Estilos globales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h2 {
+  margin-top: 1rem;
+}
+
+h3 {
+  margin-top: 2rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* Estilos del formulario */
+#formulario {
+  width: 50%;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+button[type="submit"] {
+  display: block;
+  margin-top: 1rem;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Estilos del resultado */
+#resultados {
+  width: 50%;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #1d36a2;
+  border: 1px solid #ddd;
+}
+
+#resultados h2 {
+  margin-top: 0git;
+}
+
+#resultados h3 {
+  margin-top: 2rem;
+}
+
+#resultados p {
+  margin-bottom: 1rem;
+}
+
+#empresasguardadas {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
