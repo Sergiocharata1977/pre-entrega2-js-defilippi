@@ -59,8 +59,8 @@ button[type="submit"] {
 /* Estilos del resultado */
 #resultados {
   width: 50%;
-  margin: 2rem auto;
-  padding: 2rem;
+  margin: 4rem auto;
+  padding: 4rem;
   background-color: #1d36a2;
   border: 1px solid #ddd;
 }
@@ -70,7 +70,7 @@ button[type="submit"] {
 }
 
 #resultados h3 {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 #resultados p {
@@ -80,6 +80,6 @@ button[type="submit"] {
 #empresasguardadas {
   margin-top: 2rem;
   padding: 1rem;
-  background-color: #fff;
+  background-color: #ffffff;
   border: 1px solid #ddd;
 }

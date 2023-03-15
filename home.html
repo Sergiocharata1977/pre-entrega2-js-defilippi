@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css.css">
+	
+
+	<title>Formulario de entrada</title>
+</head>
+<body>
+	<form id="formulario">
+		<h2>Datos de la empresa</h2>
+		<label for="nombre-empresa">Nombre de empresa:</label>
+		<input type="text" id="nombre-empresa" name="nombre-empresa"><br>
+
+		<label for="tipo-societario">Tipo societario:</label>
+		<input type="text" id="tipo-societario" name="tipo-societario"><br>
+
+		<label for="actividad-principal">Actividad principal:</label>
+		<input type="text" id="actividad-principal" name="actividad-principal"><br>
+
+		<h2>Activos Corrientes </H2>
+		<label for="caja-banco">Caja y Banco:</label>
+		<input type="number" id="caja-banco" name="caja-banco"><br>
+
+		<label for="creditos-ventas">Creditos por ventas:</label>
+		<input type="number" id="creditos-ventas" name="creditos-ventas"><br>
+
+		<label for="mercaderia">Mercaderia:</label>
+		<input type="number" id="mercaderia" name="mercaderia"><br>
+
+		<h2>Activos no Corrientes</h2>
+
+		<label for="Rodados">Rodados:</label>
+		<input type="number" id="rodados" name="rodados"><br>
+
+		<label for="inmueble">Inmueble:</label>
+		<input type="number" id="inmueble" name="inmueble"><br>
+
+		<h2>Pasivos Corrientes</h2>
+
+		
+		<label for="Deudas-corto-plazo">Deuda a corto plazo:</label>
+		<input type="number" id="deudas-corto-plazo" name="deudas-corto-plazo"><br>
+
+		<h2>Pasivos no corrientes</h2>
+		
+		<label for="deuda-largo-plazo">Deuda a largo Plazo:</label>
+		<input type="number" id="deuda-largo-plazo" name="deuda-largo-plazo"><br>
+
+		<h2> Patrimonio Neto</h2>
+
+		<label for="capital">Capital:</label>
+		<input type="number" id="capital" name="capital"><br>
+
+	    
+		<h2>Estado de Resultados</h2>
+
+		<label for="ventas">Ventas:</label>
+		<input type="number" id="ventas" name="ventas"><br>
+
+		<label for="costos-de-ventas">Costos de Ventas:</label>
+		<input type="number" id="costos-de-ventas" name="costos-de-ventas"><br>
+
+		<label for="gastos">Gastos de operaciones:</label>
+		<input type="number" id="gastos" name="gastos"><br>
+
+		<label for="intereses">Intereses:</label>
+		<input type="number" id="intereses" name="intereses"><br>
+
+			     
+		
+		<button type="submit">Enviar</button>
+	</form>
+     <h2>Resultados</h2>
+
+	 <h3>Liqueda Corriente</h3>
+	 	 <p id="liquidezCorriente">Liquidez Corriente</p>
+	 <h3>Prueba Acida</h3>
+	 <p id="pruebaacida"></p>
+      <h3>Liquidez Seca</h3>
+     <p id="liquidezseca"></p>
+	 <h3>Cobertura de Intereses</h3>
+     <p id="coberturaintereses"></p>
+	 <h3>Beneficio Bruto</h3>
+	 <p id="beneficioBruto"></p>
+
+	 <div id="empresasguardadas"> Nombres de Emprsas Guardas</div>
+	 
+	 
+	 
+	 <script  src="scripts.js"> </script>
+ 
+</body>
+
+
+
+</html>

@@ -57,8 +57,15 @@ formulario.addEventListener("submit", function (event) {
     document.getElementById("coberturaintereses").textContent = coberturaIntereses;
      
      const beneficioBruto = (ventas-costoVentas)/ventas
-     document.getElementById("beneficioBruto").textContent =beneficioBruto;  
+     document.getElementById("beneficioBruto").textContent =beneficioBruto; 
+
+     const beneficio = resultados/ventas
+     document.getElementById("beneficio").textContent = liquidezCorriente;
     
+//  const roa = resultados/activoTotal
+//  document.getElementById("resLiquidezCorriente").textContent = liquidezCorriente;
+     
+//     const roe = resultados/patrimonioNeto
     
 
 
