@@ -1,6 +1,11 @@
-En este proyecto. Hice un Simulador de Analiss de Creditos
+En este proyecto. Hacemo un simulador de analsisi de Credito pare empresas. Este trabajo lo contadores, lo hacemos en planilla excel. 
+Al hacerlo con un sistema tendriamos la ventajas que los datos queden grabados en forma prolija . Permitiendo, por ejemplo , auditorias 
 
-Donde el Usuario Ingresa los valores de estado situacion de Patrimonia y Resultados de las empresas a anlizar
-El Simulador Calcula los valores  e  indices  utiles para hacer analsisi de riesgo de credito. 
-Tambien Hicimos un Arreglo para guardar las empresas y sus datos . En el Futuro sera en una Base de datos , cuando sepamos hacerlos. 
-Es para mejorar los analisis de riesgo y poder automatizarlos, ya que actulamente muchas empresas lo hacen en Excel. 
+
+
+En esta entrega  Hice un Simulador de Analisis de Credito en la ultima entrega hicimos las siguientes modificaciones: 
+
+1)  Agregamos una peticion a una API para obtener usuarios de Prueba . 
+2)  Utilizamos ASYNC y FETCH para trabajar con los datos de la API y mostrarlos de Forma dinamica. 
+3) Agregamos la Libreria Jquery para manipular el DOM : 
+  

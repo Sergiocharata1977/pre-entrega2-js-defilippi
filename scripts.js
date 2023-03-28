@@ -1,6 +1,7 @@
+
 // Guardamos las empresas a Crear en Formulario 
 const empresas =[]
-const empresasguardadas=document.getElementById("empresasguardadas")
+const empresasguardadas=$("#empresasguardadas")
 console.log("empresasguardadas",empresasguardadas)
 // Obtener el formulario y agregar un controlador de eventos para cuando se envíe
 const formulario = document.getElementById("formulario");
@@ -59,8 +60,8 @@ formulario.addEventListener("submit", function (event) {
      const beneficioBruto = (ventas-costoVentas)/ventas
      document.getElementById("beneficioBruto").textContent =beneficioBruto; 
 
-     const beneficio = resultados/ventas
-     document.getElementById("beneficio").textContent = liquidezCorriente;
+    // const beneficio = resultados/ventas
+     //document.getElementById("beneficio").textContent = liquidezCorriente;
     
 //  const roa = resultados/activoTotal
 //  document.getElementById("resLiquidezCorriente").textContent = liquidezCorriente;
@@ -73,7 +74,11 @@ const datos= {
     nombreEmpresa,tipoSocietario,actividadPrincipal, liquidezCorriente,acidTest,liquidezSeca,beneficioBruto
 }
 empresas.push(datos)
-empresasguardadas.innerHTML+="<div>"+nombreEmpresa+"</div>"
+empresasguardadas.append("<div>"+nombreEmpresa+"</div>")
 }
 )
+//Fetch a usuarios de pruebas. 
+
+
+
 
